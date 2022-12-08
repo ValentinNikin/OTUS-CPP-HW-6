@@ -35,8 +35,8 @@ int main (int, char **) {
     (((matrix[1][1] = 10) = 20) = 30) = 70;
 
     // 5-мерная матрица
-    MatrixN<uint32_t, 0, 5> matrix3N;
-    matrix3N[0][1][2][3][4] = 20;
+    MatrixN<uint32_t, 0, 5> matrix5N;
+    matrix5N[0][1][2][3][4] = 20;
 
     return 0;
 }
